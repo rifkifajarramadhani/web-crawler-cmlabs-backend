@@ -4,9 +4,10 @@ const fs = require('fs/promises');
 const websites = [
   'https://www.sequence.day/',
   'https://cmlabs.co/',
+  'https://ub.ac.id/id/'
 ];
 
-const website = websites[1];
+const website = websites[2];
 
 const crawl = async (website) => {
   try {
